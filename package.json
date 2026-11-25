@@ -1,0 +1,10 @@
+{
+    "name": "petclinic-frontend",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev:owner": "pnpm --filter owner-h5 dev",
+        "dev:vet": "pnpm --filter vet-workbench dev",
+        "dev:admin": "pnpm --filter admin-dashboard dev"
+    }
+}
